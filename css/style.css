@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "HighVoltageRough";
+    src: url(../fonts/HighVoltageRough.ttf);
+    font-weight: 600;
+}
+
+.content {
+    font-family: HighVoltageRough;
+    background-color: #00BFFF;
+    color: #FF4000;
+}
+
+.element {
+    font-family: HighVoltageRough;
+    font-size: 13px;
+    border-radius: 10px;
+    color: #DF013A;
+    background-color: #0B173B;
+}
+
+.addElement {
+    font-family: HighVoltageRough;
+    font-size: 14px;
+    border-radius: 10px;
+    background-color: #FF0080;
+    color: #2EFE9A;
+}
+
+.addSet {
+    font-family: HighVoltageRough;
+    font-size: 16px;
+    border-radius: 10px;
+    background-color: #FF0080;
+    color: #2EFE9A
+}
+
+.getPC {
+    font-family: HighVoltageRough;
+    font-size: 18px;
+    border-radius: 10px;
+    background-color: #B18904;
+    color: #F2F2F2;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Producto Cartesiano</title>
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+</head>
+
+<body class="content">
+    <header>
+        <h1>Producto Cartesiano</h1>
+    </header>
+    <section>
+        <h2>Añade conjuntos y elementos para obtener el producto cartesiano formado por ellos.</h2>
+        <article id="sets">
+            <form action="" method="POST" id="set1">
+                <h3>Conjunto 1</h3>
+                <label for="set1element1">Elemento 1</label>
+                <input class="element" id="set1element1" type="text" placeholder="Elemento 1" />
+                <br/>
+            </form>
+            <button type="button" class="addElement" id="set1addElement" onclick="addElement(1, document.forms[0].elements.length)">Añadir elemento</button>
+            <br/><br/>
+            <form action="" method="POST" id="set2">
+                <h3>Conjunto 2</h3>
+                <label for="set2element1">Elemento 1</label>
+                <input class="element" id="set2element1" type="text" placeholder="Elemento 1" />
+                <br/>
+            </form>
+            <button type="button" class="addElement" id="set2addElement" onclick="addElement(2, document.forms[1].elements.length)">Añadir elemento</button>
+            <br/><br/>
+        </article>
+        <button type="button" class="addSet" id="addSets" onclick="addSet(document.forms.length)">Añadir conjuto</button>
+        <br/><br/><br/><br/>
+        <button type="button" class="getPC" id="getPC" onclick="getPC()">Obtener producto cartesiano</button>
+        <p id="pc"></p>
+    </section>
+    <footer>
+
+    </footer>
+    <script type="text/javascript" src="js/productocartesiano.js"></script>
+</body>
+
+</html>
